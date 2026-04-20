@@ -1,6 +1,6 @@
 # Can a Machine Tell Pokémon Types Apart?
 
-**SBA MODA Workshop · American University of Sharjah**
+**SBA Workshop organized by MODA and BAA · American University of Sharjah**
 
 A gentle introduction to machine learning. We build small classifiers that look at a Pokémon's image and guess whether it is **Fire**, **Water**, or **Grass** type — using only the colours in the image.
 
