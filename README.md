@@ -12,7 +12,7 @@ No prior coding or machine-learning background required.
 
 Click the button below. The notebook opens in your browser via **Google Colab**, downloads the data automatically, and runs end-to-end without any local setup.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshvardhaniimi/sba-moda-workshop/blob/main/Pokemon_Workshop.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harshvardhaniimi/pokemon-workshop/blob/main/Pokemon_Workshop.ipynb)
 
 Run each grey cell from top to bottom by clicking inside it and pressing **Shift + Enter**.
 
@@ -23,8 +23,8 @@ Run each grey cell from top to bottom by clicking inside it and pressing **Shift
 If you prefer to run things locally, first clone the repo and install the packages:
 
 ```bash
-git clone https://github.com/harshvardhaniimi/sba-moda-workshop.git
-cd sba-moda-workshop
+git clone https://github.com/harshvardhaniimi/pokemon-workshop.git
+cd pokemon-workshop
 pip install numpy pandas matplotlib scikit-learn pillow jupyter
 ```
 
@@ -42,7 +42,7 @@ A browser tab will open with the notebook. Click any grey cell and press **Shift
 
 1. Install [VSCode](https://code.visualstudio.com/) if you don't have it.
 2. Inside VSCode, open the **Extensions** tab (`Ctrl/Cmd + Shift + X`) and install **Python** and **Jupyter** (both from Microsoft).
-3. Open the workshop folder: `File → Open Folder…` → pick `sba-moda-workshop`. (Or from the terminal: `code sba-moda-workshop`.)
+3. Open the workshop folder: `File → Open Folder…` → pick `pokemon-workshop`. (Or from the terminal: `code pokemon-workshop`.)
 4. In the file tree on the left, click `Pokemon_Workshop.ipynb`.
 5. The first time you run a cell, VSCode will ask you to pick a Python kernel — choose any Python install that has the packages from above.
 6. Run cells one at a time with the ▶ button next to each cell, or press **Shift + Enter**. Or hit **"Run All"** at the top to run the whole notebook at once.
@@ -54,7 +54,7 @@ The notebook itself downloads the data the first time you run it, so there is no
 ## What's in this repo
 
 ```
-sba-moda-workshop/
+pokemon-workshop/
 ├── Pokemon_Workshop.ipynb     ← The main notebook (open this!)
 ├── pokemon_data.zip           ← 721 Pokémon images + type labels
 ├── slides/
