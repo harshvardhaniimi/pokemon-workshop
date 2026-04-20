@@ -1,0 +1,22 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+
+# Extracted data folder — the ZIP itself IS committed so the notebook can download it
+pokemon_data/
+
+outputs/
+tmp/
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.vrb
+*.fls
+*.fdb_latexmk
+*.synctex.gz
